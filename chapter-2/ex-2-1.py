@@ -1,3 +1,13 @@
+name = ("John Doe")
+
+address = ("682 Filmore ST.")
+
+city_state_zip = ("Iowa City Iowa, 53278")
+
+number = ("319-551-6825")
+
+course = ("cis-121")
+
 # Programming Exercise 2-1
 # 
 # Program to display one person's contact information.
@@ -5,20 +15,11 @@
 # and performs no computations.
 # It will display the name and contact information for a teacher.
 
-# display the full name
-print("John Doe")
-
-# display the address
-print("682 Filmore ST.")
-
-# display the city, state and zip
-print("Iowa City Iowa, 53278")
-
-# display the phone number
-print("319-551-6825")
-
-# display the course area
-print("cis-121")
+print(name)
+print(address)
+print(city_state_zip)
+print(number)
+print(course)
 
 
 
