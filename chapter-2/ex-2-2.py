@@ -19,7 +19,10 @@
 # Print the projected profit.
 # be sure to format the output to two decimal places
 
+x = 50000
+y = .23
+z = x * y
+n = z + 50000
+print(n)
 
-
-
-
+#Answer = $61500
