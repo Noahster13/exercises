@@ -28,7 +28,15 @@
 # Print the values for the subtotal, tax and total.
 # Label each value, and format them to display with two decimal places. 
 
-
-
-
+item1 = input("What is the price of item 1?: ") 
+item2 = input("What is the price of item 2?: ") 
+item3 = input("What is the price of item 3?: ") 
+item4 = input("What is the price of item 4?: ") 
+item5 = input("What is the price of item 5?: ") 
+subtotal = item1 + item2 + item3 + item4 + item5
+tax = 0.06
+total = (tax * subtotal) + subtotal
+print(subtotal)
+print(tax)
+print(total)
 

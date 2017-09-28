@@ -17,9 +17,13 @@
 
 
 
-# Print the results for all calculations.
+# Print the results for all calculations 
 
+speed = 65
+six_distance = speed * 6
+ten_distance = speed * 10
+fifteen_distance = speed * 15
 
-
-
-
+print(six_distance)
+print(ten_distance)
+print(fifteen_distance)

@@ -22,7 +22,9 @@
 # Print the number of acres.
 # remember to format the acres to two decimal places
 
-
-
-
+square_feet = input("How many square feet?: ")
+square_feet_to_acre_ratio = float(2.2957e-5)
+acre = square_feet * square_feet_to_acre_ratio
+rounded_acre = ("%.2f" % acre)
+print(acre)
 
