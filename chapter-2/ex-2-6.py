@@ -29,6 +29,3 @@
 
 # Print detailed information about the sale, formatting all values to two decimal places.
 
-A = 12.3 + 6.7
-
-print(A)
