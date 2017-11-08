@@ -22,7 +22,7 @@ def main():
         print(output)
         
 def display_menu():
-    print(" MENU")
+    print("MENU")
     print("1) Area of a circle")
     print("2) Circumference of a circle")
     print("3) Area of a rectangle")
